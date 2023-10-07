@@ -1,0 +1,152 @@
+[
+    {
+        "module_code": "C2",
+        "module_description": "OOD + Software Engineering",
+        "component_marks": [
+            {
+                "component_name": "Assignments",
+                "total_marks": 100,
+                "obtained_marks": 64.6,
+                "weightage": 40
+            },
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 100,
+                "obtained_marks": 67.5,
+                "weightage": 20
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 75,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "C1.2",
+        "module_description": "Object Oriented Programming in Java: Part - II",
+        "component_marks": [
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 100,
+                "obtained_marks": 96.05,
+                "weightage": 60
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 57,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "C3",
+        "module_description": "Data Structures and Algorithms",
+        "component_marks": [
+            {
+                "component_name": "Assignments",
+                "total_marks": 100,
+                "obtained_marks": 100,
+                "weightage": 40
+            },
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 600,
+                "obtained_marks": 393.67,
+                "weightage": 20
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 83,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "CC-C4",
+        "module_description": "Distributed Systems & Cloud Databases",
+        "component_marks": [
+            {
+                "component_name": "Case Studies",
+                "total_marks": 1000,
+                "obtained_marks": 950,
+                "weightage": 40
+            },
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 179,
+                "obtained_marks": 400,
+                "weightage": 20
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 62.23,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "CC-C5",
+        "module_description": "Design and Development of Microservices",
+        "component_marks": [
+            {
+                "component_name": "Case Studies",
+                "total_marks": 100,
+                "obtained_marks": 100,
+                "weightage": 40
+            },
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 800,
+                "obtained_marks": 622,
+                "weightage": 20
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 59.26,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "CC-C6",
+        "module_description": "Serverless Development and Deployment of Cloud-Native Applicatoins",
+        "component_marks": [
+            {
+                "component_name": "Case Studies",
+                "total_marks": 100,
+                "obtained_marks": 70,
+                "weightage": 40
+            },
+            {
+                "component_name": "In Content Quizzes",
+                "total_marks": 600,
+                "obtained_marks": 290,
+                "weightage": 20
+            },
+            {
+                "component_name": "Final Exams",
+                "total_marks": 100,
+                "obtained_marks": 72.81,
+                "weightage": 40
+            }
+        ]
+    },
+    {
+        "module_code": "CC",
+        "module_description": "Capstone",
+        "component_marks": [
+            {
+                "component_name": "Case Studies",
+                "total_marks": 1000,
+                "obtained_marks": 976,
+                "weightage": 100
+            }
+        ]
+    }
+]
