@@ -14,17 +14,20 @@ assert marks_data is not None, f"failed to read data from file {marks_details_js
 
 total_marks = 0
 total_counts = 0
-for module in marks_data:
-    module_percentile = 0
-    for marks in module["component_marks"]:
+for i in range(len(marks_data)):
+    module = marks_data[i]
+    component_percentile = 0
+    # for marks in module["component_marks"]:
+    for ii in range(len(module["component_marks"])):
+        marks = module["component_marks"][ii]
+        component_percentile += (marks["weightage"] * (marks["obtained_marks"]/marks["total_marks"]))
+        marks["component_percentail"] = component_percentile
+        module["component_marks"][ii] = marks
 
-        module_percentile += (marks["weightage"] * (marks["obtained_marks"]/marks["total_marks"]))
+    module["module_percentail"] = component_percentile
+    marks_data[i] = module
 
-    # module_percentile/=100
-
-    # print(f"{module['module_code']} --> {module_percentile}")
-
-    total_marks += module_percentile
+    total_marks += component_percentile
     total_counts += 1
 
 # print(f"TC : {total_counts}\nTm: {total_marks}")
@@ -32,7 +35,16 @@ for module in marks_data:
 total_percentail = total_marks/total_counts
 grade_point = total_percentail/grade_dividand
 
+final_grades = {
+    "total_marks_obtained": total_marks,
+    "grade_points": grade_point,
+    "module_wise_details": marks_data
+}
 
+percentail_details_json_path=os.path.join(os.path.abspath("."),"percentail_details.json")
+
+with open(percentail_details_json_path, 'w') as write_file:
+    json.dump(final_grades, write_file, indent=4)
 
 print("\n==========================================\n")
 print(f"TP: {total_percentail}, GP: {grade_point}")
