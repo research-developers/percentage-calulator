@@ -1,5 +1,7 @@
 # Percentage calculator
 
+### requirements
+* python3
 ### usage
 
 * add details of marks in the json file `marks_details.json` in a list manner
