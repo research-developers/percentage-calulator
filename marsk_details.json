@@ -77,8 +77,8 @@
             },
             {
                 "component_name": "In Content Quizzes",
-                "total_marks": 179,
-                "obtained_marks": 400,
+                "total_marks": 400,
+                "obtained_marks": 179,
                 "weightage": 20
             },
             {
