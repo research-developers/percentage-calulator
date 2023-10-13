@@ -2,7 +2,7 @@ import os
 import json
 
 grade_dividand=9.5
-marks_details_json_path=os.path.join(os.path.abspath("."),"marsk_details.json")
+marks_details_json_path=os.path.join(os.path.abspath("."),"marks_details.json")
 
 marks_data = None
 
